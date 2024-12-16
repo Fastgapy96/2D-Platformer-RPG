@@ -6,7 +6,7 @@ class Background():
     def __init__(self,game):
         self.game = game
         self.screen = game.screen
-        self.background=self.get_texture("resources\Background\background.png")
+        self.background=self.get_texture(r"resources\Background\background.png")
 
     def draw(self):
         # Draw sky image
